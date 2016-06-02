@@ -1,0 +1,15 @@
+{
+  "require": {
+    "altorouter/altorouter": "1.*"
+  },
+  "autoload": {
+    "files": [
+      "src/app/bootstrap.php"
+    ],
+    "psr-4": {
+      "App\\": "src/app/",
+      "App\\Controller\\": "src/app/controllers/",
+      "App\\Model\\": "src/app/models/"
+    }
+  }
+}
